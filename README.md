@@ -1,4 +1,4 @@
-# Jordan Lee Portfolio
+# Harrison Ng'ang'a
 
 A simple personal portfolio website built with HTML and CSS.
 
