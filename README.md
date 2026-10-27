@@ -2,7 +2,7 @@
 
 My personal portfolio website. It introduces me, shows my projects and skills, and has a way to get in touch.
 
-**Live site:** 
+**Live site:** https://harry-clue.github.io/my-portfolio/
 
 ## Sections
 
