@@ -1,0 +1,134 @@
+/* Colors and fonts: change these to restyle the site */
+:root {
+  --bg: #eef2ea;
+  --text: #14261f;
+  --accent: #f2b632;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+.brand,
+.nav-list a {
+  font-family: Arial, sans-serif;
+}
+
+ul,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+/* Header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 16px 24px;
+  border-bottom: 2px solid var(--text);
+}
+
+.brand {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+/* Page content stays in a centered column */
+.hero,
+.section,
+.site-footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+/* Hero */
+.hero-name {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.hero-intro {
+  background: var(--accent);
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+/* Sections */
+.section {
+  border-top: 2px solid var(--text);
+}
+
+.section-title {
+  margin: 0 0 16px;
+}
+
+.project,
+.skill-group {
+  margin-bottom: 20px;
+}
+
+.project-name {
+  margin: 0;
+}
+
+.project-tech {
+  opacity: 0.7;
+}
+
+.skill-group dt {
+  font-weight: bold;
+}
+
+/* Links */
+.text-link {
+  font-weight: bold;
+}
+
+.contact-email {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 2px solid var(--text);
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  .hero-name {
+    font-size: 2.5rem;
+  }
+}
